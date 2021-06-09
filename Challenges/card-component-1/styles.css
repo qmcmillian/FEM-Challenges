@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  d
+}
+
+.background {
+  height: 500px;
+  width: 1000px;
+  background-color: #0a0c1b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 300px;
+  width: 800px;
+  background-color: #1c1938;
+  display: flex;
+  border-radius: 5px;
+}
+
+.content {
+  padding: 40px;
+  flex: 1;
+  color: white;
+}
+
+.content h1 {
+  font-size: 25px;
+  margin-right: 45px;
+}
+
+.content p {
+  margin: 20px 45px 40px 0;
+  line-height: 17px;
+}
+
+.content h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.image {
+  flex: 1;
+}
+
